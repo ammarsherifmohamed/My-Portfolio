@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #0a0a0f;
+    --bg2: #111118;
+    --bg3: #1a1a25;
+    --surface: #1e1e2e;
+    --border: #2a2a3e;
+    --accent: #7c6af7;
+    --accent2: #a78bfa;
+    --accent3: #38bdf8;
+    --text: #f0f0f8;
+    --muted: #8888aa;
+    --card: #16161f;
+  }
+
+  .light {
+    --bg: #f5f4ff;
+    --bg2: #eeedf8;
+    --bg3: #e5e3f5;
+    --surface: #ffffff;
+    --border: #d5d3ee;
+    --accent: #6c5ce7;
+    --accent2: #8b5cf6;
+    --accent3: #0284c7;
+    --text: #0f0e1a;
+    --muted: #5a5880;
+    --card: #ffffff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 99px;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, var(--accent), var(--accent3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, var(--accent), var(--accent3));
+  }
+
+  .glow {
+    box-shadow: 0 0 30px rgba(124, 106, 247, 0.4);
+  }
+
+  .glow-hover:hover {
+    box-shadow: 0 8px 40px rgba(124, 106, 247, 0.6);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
