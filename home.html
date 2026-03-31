@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <title>Document</title>
+</head>
+
+<body class=" dark:bg-dark">
+    <div class="container ">
+
+        <!-- nav bar -->
+
+        <section class=" nav-bar d-flex align-items-center p-2 justify-content-around w-100 ">
+
+            <div class="logo d-flex">
+                <img src="./images/علامه تجاريه .jpeg" alt="logo" class="logo ">
+                <h4 class="p-2">portfolio</h4>
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-capitalize" href="home.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="projects.html">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="blog.html">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="contact.html">contact</a>
+                </li>
+            </ul>
+            <div class="flex items-center gap-4 text-sm">
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" id="darkToggle" class="sr-only peer">
+                    <div
+                        class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peerfocus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+                    </div>
+                </label>
+                <a href="#" class="text-gray-600 ">Login</a>
+                <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Sign Up</a>
+            </div>
+
+
+        </section>
+        <!-- hero section  -->
+
+        <section class="hero-section ">
+            <div class="col-12 d-flex">
+                <div class="col-6 text">
+                    <h1 class="m-4 ">Anas Hany</h1>
+                    <h4 class="m-4 "> Half Full Stack Developer & Creative Designer</h4>
+                    <p class="m-4 dark:text-white">Crafting immersive digital experiences that blend cutting-edge
+                        technology with
+                        stunning design, inspired by the worlds
+                        of gaming and Marvel.</p>
+                    <div class="buttons m-3">
+                        <button onclick="window.location.href='projects.html'"
+                            class="text-capitalize rounded-3 transition-transform duration-300 hover:scale-110 px-6 py-3">view
+                            my work</button>
+                        <button onclick="window.location.href='contact.html'"
+                            class="text-capitalize rounded-3 border-2 border-purple-600 text-purple-600  hover:bg-purple-600 duration-200  hover:text-white ">get
+                            in touch</button>
+                    </div>
+                </div>
+                <div class="col-6 image">
+                    <img src="./images/photo-1.jpg"
+                        class="cursor-pointer rounded-lg grayscale hover:grayscale-0 transition-all duration-200"
+                        alt="setup">
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- what section -->
+
+    <section class="services-section py-5">
+
+        <!-- Title -->
+        <h1 class="h1 font-bold  text-center mb-5 section-title ">What I Bring to the Table</h1>
+
+        <div class="row justify-content-center g-4">
+
+            <!-- Card 1 -->
+            <div class="col-12 col-md-4">
+                <div class=" custom-card text-center p-4">
+
+                    <div class="icon-box mb-3">
+                        <>
+                    </div>
+
+                    <h5>Clean Code</h5>
+                    <p>Writing maintainable, scalable code with best practices and modern frameworks.</p>
+
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-4">
+                <div class="custom-card text-center p-4">
+
+                    <div class="icon-box mb-3">
+                        🎨
+                    </div>
+
+                    <h5>Creative Design</h5>
+                    <p>Designing beautiful interfaces that users love with attention to every detail.</p>
+
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-4">
+                <div class="custom-card text-center p-4">
+
+                    <div class="icon-box mb-3">
+                        ⚡
+                    </div>
+
+                    <h5>Performance</h5>
+                    <p>Optimizing for speed and efficiency to deliver lightning-fast experiences.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <button id="backToTop" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+
+
+    <script src="./style/bootstrap.bundle.min.js"></script>
+    <script src="./style/all.min.js"></script>
+    <script src="./Java script/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

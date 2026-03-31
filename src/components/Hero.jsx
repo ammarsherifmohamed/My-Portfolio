@@ -238,7 +238,7 @@ export default function Hero() {
           {[
             ["1+", "Years Exp"],
             ["15+", "Projects"],
-            ["10+", "Happy Clients"],
+            // ["10+", "Happy Clients"],
           ].map(([n, l]) => (
             <div key={l} style={{ textAlign: "center" }}>
               <div

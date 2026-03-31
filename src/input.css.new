@@ -1,0 +1,2 @@
+@import "tailwindcss/base";&#10;@import "tailwindcss/components";&#10;@import "tailwindcss/utilities";&#10;&#10;@config {&#10;  darkMode: 'class',&#10;}&#10;&#10;@custom-variant dark (&:where(.dark, .dark *));
+    

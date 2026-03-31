@@ -83,38 +83,31 @@ export default function Contact() {
     setErrors({});
     setSending(true);
     setStatus("");
+
     try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
+      const res = await fetch("https://formspree.io/f/mreokoeb", {
+        // ← paste your URL here
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          model: "claude-sonnet-4-20250514",
-          max_tokens: 200,
-          messages: [
-            {
-              role: "user",
-              content: `You are an email notification assistant. Someone sent a contact form message to Ammar Sherif (ammar.s.fouad555@gmail.com).
-Name: ${form.name}
-Email: ${form.email}
-Subject: ${form.subject}
-Message: ${form.message}
-
-Compose a brief, professional notification confirming the message was received and that Ammar will reply to ${form.email} within 24 hours. Keep it under 80 words.`,
-            },
-          ],
+          name: form.name,
+          email: form.email,
+          subject: form.subject,
+          message: form.message,
         }),
       });
-      const data = await res.json();
-      const reply = data?.content?.[0]?.text || "";
-      if (reply) {
+
+      if (res.ok) {
         setStatus("success");
         setForm({ name: "", email: "", subject: "", message: "" });
       } else {
         setStatus("error");
       }
-    } catch {
+    } catch (err) {
+      console.error(err);
       setStatus("error");
     }
+
     setSending(false);
   };
 

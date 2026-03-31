@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+
+        <!-- nav-bar -->
+
+        <section class="fixed nav-bar d-flex align-items-center position-fixed p-2 justify-content-around w-100">
+
+            <div class="logo d-flex">
+                <img src="./images/علامه تجاريه .jpeg" alt="logo" class="logo ">
+                <h4 class="p-2">portfolio</h4>
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-capitalize" href="home.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="projects.html">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="blog.html">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="contact.html">contact</a>
+                </li>
+            </ul>
+
+
+        </section>
+
+
+        <div class="form-text">
+            <h1 class="text-center h1 dark:text-white">Get In <span>Touch</span></h1>
+        </div>
+
+        <section class="d-flex">
+            <!-- left -->
+
+            <div class="col-6 md:grid-cols-2 gap-6">
+                <div class="form m-3">
+            
+                    <form id="contactForm" class="bg-white p-6 rounded-2xl shadow-md">
+            
+                        <h3 class="text-xl font-bold mb-4">Send Me a Message</h3>
+            
+                        <!-- Name -->
+                        <label class="block mb-1">Name*</label>
+                        <input id="name" type="text" placeholder="Your name"
+                            class="w-full p-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <p id="nameError" class="text-red-500 text-sm mt-1 hidden">
+                            Name is required
+                        </p>
+            
+                        <!-- Email -->
+                        <label class="block mt-4 mb-1">Email*</label>
+                        <input id="email" type="email" placeholder="your.email@example.com"
+                            class="w-full p-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <p id="emailError" class="text-red-500 text-sm mt-1 hidden">
+                            Valid email is required
+                        </p>
+            
+                        <!-- Subject -->
+                        <label class="block mt-4 mb-1">Subject*</label>
+                        <input id="subject" type="text" placeholder="What's this about my friend?"
+                            class="w-full p-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <p id="subjectError" class="text-red-500 text-sm mt-1 hidden">
+                            Subject is required
+                        </p>
+            
+                        <!-- Message -->
+                        <label class="block mt-4 mb-1">Message*</label>
+                        <textarea id="message" placeholder="Tell me about your project..."
+                            class="w-full p-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+                        <p id="messageError" class="text-red-500 text-sm mt-1 hidden">
+                            Message is required
+                        </p>
+            
+                        <!-- Button -->
+                        <button type="submit"
+                            class="mt-4 w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-lg hover:opacity-90 transition">
+                            Send Message
+                        </button>
+            
+                    </form>
+            
+                </div>
+            </div>
+
+            <!-- right -->
+
+            <div class="col-6">
+                <div class="bg-white rounded-2xl contact shadow-md p-6 w-full">
+
+                    <h2 class="text-xl font-bold text-gray-800 mb-6">
+                        Contact Information
+                    </h2>
+
+                    <div class="space-y-6 ">
+
+                        <!-- Email -->
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+                                ✉️
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Email</p>
+                                <p class="text-gray-800 font-medium">your.email@example.com</p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+                                📞
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Phone</p>
+                                <p class="text-gray-800 font-medium">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+                                📍
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500">Location</p>
+                                <p class="text-gray-800 font-medium">Your City, Country</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="bg-white connect rounded-2xl shadow-md p-6">
+
+                        <h2 class="text-xl font-bold text-gray-800 mb-6">
+                            Connect With Me
+                        </h2>
+
+                        <div class="grid  grid-cols-1 sm:grid-cols-3 gap-4">
+
+                            <!-- GitHub -->
+                            <a href="#"
+                                class="group flex flex-col items-center justify-center gap-2 py-4 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white transition duration-300 hover:scale-105">
+                                <span class="text-2xl transition duration-300 group-hover:scale-125">🐱</span>
+                                <span class="text-sm font-medium">GitHub</span>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="#"
+                                class="group flex flex-col items-center justify-center gap-2 py-4 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white transition duration-300 hover:scale-105">
+                                <span class="text-2xl transition duration-300 group-hover:scale-125">💼</span>
+                                <span class="text-sm font-medium">LinkedIn</span>
+                            </a>
+
+                            <!-- Twitter -->
+                            <a href="#"
+                                class="group flex flex-col items-center justify-center gap-2 py-4 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white transition duration-300 hover:scale-105">
+                                <span class="text-2xl transition duration-300 group-hover:scale-125">🐦</span>
+                                <span class="text-sm font-medium">Twitter</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="epic rounded-2xl p-6 text-white shadow-md bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
+
+                        <h2 class="text-xl font-bold mb-3">
+                            Let's Build Something Epic!
+                        </h2>
+
+                        <p class="text-sm leading-relaxed opacity-90">
+                            Whether you have a project in mind or just want to chat about tech, gaming,
+                            or the Marvel universe, I'm always excited to connect with fellow enthusiasts
+                            and creators.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </section>
+    <button id="backToTop" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+    <script src="./style/bootstrap.bundle.min.js"></script>
+    <script src="./style/all.min.js"></script>
+    <script src="./Java script/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
