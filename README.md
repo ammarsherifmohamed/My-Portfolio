@@ -184,35 +184,6 @@ The build output goes into a `dist/` folder. Upload it to any static hosting ser
 | `npm run build` | Build optimized production bundle into the `dist/` folder |
 | `npm run preview` | Preview the production build locally before deploying |
 
----
-
-## 🔌 Custom Hooks Explained
-
-### `useInView`
-Wraps the browser's `IntersectionObserver` API. Once an element scrolls into view (15% threshold by default), `visible` is set to `true` permanently — triggering CSS opacity and transform transitions.
-
-```jsx
-const [ref, visible] = useInView()
-
-<div ref={ref} style={{
-  opacity: visible ? 1 : 0,
-  transform: visible ? "none" : "translateY(30px)",
-  transition: "all 0.7s ease"
-}}>
-```
-
-### `useTyping`
-Manages a typewriter animation across an array of words — cycles forward through characters (typing), pauses, then deletes backwards before moving to the next word.
-
-```jsx
-const typed = useTyping([
-  "Frontend Developer",
-  "React Developer",
-  "Tailwind Expert"
-])
-
-<span>{typed}</span><Cursor />
-```
 
 ---
 
