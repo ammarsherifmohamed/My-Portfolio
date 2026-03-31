@@ -10,6 +10,9 @@ The site combines smooth section choreography, animated UI layers, skills visual
 
 <h1>Hero Section Image</h1> 
 <hr/>
+
+<img width="1916" height="859" alt="Screenshot 2026-03-30 232039" src="https://github.com/user-attachments/assets/5264b4aa-59dd-47a8-b2c2-57350ada94d4" />
+
 <img width="1916" height="859" alt="Screenshot 2026-03-30 232039" src="https://github.com/user-attachments/assets/e9753a8d-9821-48bc-89c4-6debd9d408da" />
 
 </br>
