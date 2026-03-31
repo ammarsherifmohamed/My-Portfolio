@@ -1,4 +1,4 @@
-<h1>Ammar Sherif || Portfolio</h1>
+<!-- <h1>Ammar Sherif || Portfolio</h1>
 <br/>
 <hr/>
 <h4>
@@ -15,5 +15,237 @@ The site combines smooth section choreography, animated UI layers, skills visual
 </br>
 
 <h2>Live Deployment</h2>
-<a href="#" <img src=""/></a>
-![1](https://github.com/user-attachments/assets/387f087f-f084-4ecf-8c47-c7d694025268)<svg xmlns="http://www.w3.org/2000/svg" width="86.25" height="28" role="img" aria-label="REACT"><title>REACT</title><g shape-rendering="crispEdges"><rect width="86.25" height="28" fill="#20232a"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNjFkYWZiIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVhY3Q8L3RpdGxlPjxwYXRoIGQ9Ik0xNC4yMyAxMi4wMDRhMi4yMzYgMi4yMzYgMCAwIDEtMi4yMzUgMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEtMi4yMzYtMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEgMi4yMzUtMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEgMi4yMzYgMi4yMzZ6bTIuNjQ4LTEwLjY5Yy0xLjM0NiAwLTMuMTA3Ljk2LTQuODg4IDIuNjIyLTEuNzgtMS42NTMtMy41NDItMi42MDItNC44ODctMi42MDItLjQxIDAtLjc4My4wOTMtMS4xMDYuMjc4LTEuMzc1Ljc5My0xLjY4MyAzLjI2NC0uOTczIDYuMzY1QzEuOTggOC45MTcgMCAxMC40MiAwIDEyLjAwNGMwIDEuNTkgMS45OSAzLjA5NyA1LjA0MyA0LjAzLS43MDQgMy4xMTMtLjM5IDUuNTg4Ljk4OCA2LjM4LjMyLjE4Ny42OS4yNzUgMS4xMDIuMjc1IDEuMzQ1IDAgMy4xMDctLjk2IDQuODg4LTIuNjI0IDEuNzggMS42NTQgMy41NDIgMi42MDMgNC44ODcgMi42MDMuNDEgMCAuNzgzLS4wOSAxLjEwNi0uMjc1IDEuMzc0LS43OTIgMS42ODMtMy4yNjMuOTczLTYuMzY1QzIyLjAyIDE1LjA5NiAyNCAxMy41OSAyNCAxMi4wMDRjMC0xLjU5LTEuOTktMy4wOTctNS4wNDMtNC4wMzIuNzA0LTMuMTEuMzktNS41ODctLjk4OC02LjM4LS4zMTgtLjE4NC0uNjg4LS4yNzctMS4wOTItLjI3OHptLS4wMDUgMS4wOXYuMDA2Yy4yMjUgMCAuNDA2LjA0NC41NTguMTI3LjY2Ni4zODIuOTU1IDEuODM1LjczIDMuNzA0LS4wNTQuNDYtLjE0Mi45NDUtLjI1IDEuNDQtLjk2LS4yMzYtMi4wMDYtLjQxNy0zLjEwNy0uNTM0LS42Ni0uOTA1LTEuMzQ1LTEuNzI3LTIuMDM1LTIuNDQ3IDEuNTkyLTEuNDggMy4wODctMi4yOTIgNC4xMDUtMi4yOTV6bS05Ljc3LjAyYzEuMDEyIDAgMi41MTQuODA4IDQuMTEgMi4yOC0uNjg2LjcyLTEuMzcgMS41MzctMi4wMiAyLjQ0Mi0xLjEwNy4xMTctMi4xNTQuMjk4LTMuMTEzLjUzOC0uMTEyLS40OS0uMTk1LS45NjQtLjI1NC0xLjQyLS4yMy0xLjg2OC4wNTQtMy4zMi43MTQtMy43MDcuMTktLjA5LjQtLjEyNy41NjMtLjEzMnptNC44ODIgMy4wNWMuNDU1LjQ2OC45MS45OTIgMS4zNiAxLjU2NC0uNDQtLjAyLS44OS0uMDM0LTEuMzQ1LS4wMzQtLjQ2IDAtLjkxNS4wMS0xLjM2LjAzNC40NC0uNTcyLjg5NS0xLjA5NiAxLjM0NS0xLjU2NXpNMTIgOC4xYy43NCAwIDEuNDc3LjAzNCAyLjIwMi4wOTMuNDA2LjU4Mi44MDIgMS4yMDMgMS4xODMgMS44Ni4zNzIuNjQuNzEgMS4yOSAxLjAxOCAxLjk0Ni0uMzA4LjY1NS0uNjQ2IDEuMzEtMS4wMTMgMS45NS0uMzguNjYtLjc3MyAxLjI4OC0xLjE4IDEuODctLjcyOC4wNjMtMS40NjYuMDk4LTIuMjEuMDk4LS43NCAwLTEuNDc3LS4wMzUtMi4yMDItLjA5My0uNDA2LS41ODItLjgwMi0xLjIwNC0xLjE4My0xLjg2LS4zNzItLjY0LS43MS0xLjI5LTEuMDE4LTEuOTQ2LjMwMy0uNjU3LjY0Ni0xLjMxMyAxLjAxMy0xLjk1NC4zOC0uNjYuNzczLTEuMjg2IDEuMTgtMS44NjguNzI4LS4wNjQgMS40NjYtLjA5OCAyLjIxLS4wOTh6bS0zLjYzNS4yNTRjLS4yNC4zNzctLjQ4Ljc2My0uNzA0IDEuMTYtLjIyNS4zOS0uNDM1Ljc4Mi0uNjM1IDEuMTc0LS4yNjUtLjY1Ni0uNDktMS4zMS0uNjc2LTEuOTQ3LjY0LS4xNSAxLjMxNS0uMjgzIDIuMDE1LS4zODZ6bTcuMjYgMGMuNjk1LjEwMyAxLjM2NS4yMyAyLjAwNi4zODctLjE4LjYzMi0uNDA1IDEuMjgyLS42NiAxLjkzMy0uMi0uMzktLjQxLS43ODMtLjY0LTEuMTc0LS4yMjUtLjM5Mi0uNDY1LS43NzQtLjcwNS0xLjE0NnptMy4wNjMuNjc1Yy40ODQuMTUuOTQ0LjMxNyAxLjM3NS40OTggMS43MzIuNzQgMi44NTIgMS43MDggMi44NTIgMi40NzYtLjAwNS43NjgtMS4xMjUgMS43NC0yLjg1NyAyLjQ3NS0uNDIuMTgtLjg4LjM0Mi0xLjM1NS40OTMtLjI4LS45NTgtLjY0Ni0xLjk1Ni0xLjEtMi45OC40NS0xLjAxNy44MS0yLjAxIDEuMDg1LTIuOTY0em0tMTMuMzk1LjAwNGMuMjc4Ljk2LjY0NSAxLjk1NyAxLjEgMi45OC0uNDUgMS4wMTctLjgxMiAyLjAxLTEuMDg2IDIuOTY0LS40ODQtLjE1LS45NDQtLjMxOC0xLjM3LS41LTEuNzMyLS43MzctMi44NTItMS43MDYtMi44NTItMi40NzQgMC0uNzY4IDEuMTItMS43NDIgMi44NTItMi40NzYuNDItLjE4Ljg4LS4zNDIgMS4zNTYtLjQ5NHptMTEuNjc4IDQuMjhjLjI2NS42NTcuNDkgMS4zMTIuNjc2IDEuOTQ4LS42NC4xNTctMS4zMTYuMjktMi4wMTYuMzkuMjQtLjM3NS40OC0uNzYyLjcwNS0xLjE1OC4yMjUtLjM5LjQzNS0uNzg4LjYzNi0xLjE4em0tOS45NDUuMDJjLjIuMzkyLjQxLjc4My42NCAxLjE3NS4yMy4zOS40NjUuNzcyLjcwNSAxLjE0My0uNjk1LS4xMDItMS4zNjUtLjIzLTIuMDA2LS4zODYuMTgtLjYzLjQwNi0xLjI4Mi42Ni0xLjkzM3pNMTcuOTIgMTYuMzJjLjExMi40OTMuMi45NjguMjU0IDEuNDIzLjIzIDEuODY4LS4wNTQgMy4zMi0uNzE0IDMuNzA4LS4xNDcuMDktLjMzOC4xMjgtLjU2My4xMjgtMS4wMTIgMC0yLjUxNC0uODA3LTQuMTEtMi4yOC42ODYtLjcyIDEuMzctMS41MzYgMi4wMi0yLjQ0IDEuMTA3LS4xMTggMi4xNTQtLjMgMy4xMTMtLjU0em0tMTEuODMuMDFjLjk2LjIzNCAyLjAwNi40MTUgMy4xMDcuNTMyLjY2LjkwNSAxLjM0NSAxLjcyNyAyLjAzNSAyLjQ0Ni0xLjU5NSAxLjQ4My0zLjA5MiAyLjI5NS00LjExIDIuMjk1LS4yMi0uMDA1LS40MDYtLjA1LS41NTMtLjEzMi0uNjY2LS4zOC0uOTU1LTEuODM0LS43My0zLjcwMy4wNTQtLjQ2LjE0Mi0uOTQ0LjI1LTEuNDM4em00LjU2LjY0Yy40NC4wMi44OS4wMzQgMS4zNDUuMDM0LjQ2IDAgLjkxNS0uMDEgMS4zNi0uMDM0LS40NC41NzItLjg5NSAxLjA5NS0xLjM0NSAxLjU2NS0uNDU1LS40Ny0uOTEtLjk5My0xLjM2LTEuNTY1eiIvPjwvc3ZnPg=="/><text transform="scale(.1)" x="531.25" y="175" textLength="422.5" fill="#fff" font-weight="bold">REACT</text></g></svg>
+<p>Live link : <span></span></p> -->
+
+
+<div align="center">
+
+# ⚡ Ammar Sherif — Frontend Developer Portfolio
+
+### A modern, fully responsive personal portfolio built with React, Vite & Tailwind CSS
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+</div>
+
+---
+
+## 📖 Introduction
+
+This repository contains the source code for **Ammar Sherif's Portfolio** — a single-page application (SPA) designed with a strong focus on visual quality, performance, and user experience.
+
+The portfolio features:
+- 🌗 Dark / Light mode theming via CSS custom properties
+- 🎞️ Fluid scroll-triggered animations
+- 🖼️ Live project preview system using iframes
+- 🤖 AI-powered contact form connected to the **Anthropic Claude API**
+
+---
+
+## 🎯 Goals
+
+- Showcase frontend development projects with live previews
+- Present skills, certifications, and experience clearly
+- Provide a professional contact channel for freelance work
+- Demonstrate proficiency in React, Tailwind CSS, and modern JavaScript
+- Achieve a pixel-perfect, production-grade result with smooth animations
+
+---
+
+## 🚀 Core Experience
+
+- **Immersive hero** with an interactive image reveal lens
+- **Animated navigation** and section transitions
+- **Reusable section system** with motion-based reveal wrappers
+- **Lazy-loaded** heavy sections for better initial load performance
+- **3D skills cloud** powered by WebGL
+- **Project gallery** with reusable project cards
+- **Certifications gallery** and contact hub
+- **Startup loader** with explicit user choice for sound
+- **Responsive behavior** across desktop, tablet, and mobile breakpoints
+
+---
+
+## 🛠️ Technologies & Packages
+
+### Core Stack
+
+| Technology | Version | Purpose |
+|---|---|---|
+| **React** | 18.2 | UI component library — handles state, rendering, and component lifecycle |
+| **Vite** | 5.1 | Ultra-fast build tool and dev server with Hot Module Replacement (HMR) |
+| **Tailwind CSS** | 3.4 | Utility-first CSS framework for rapid, consistent styling |
+| **JavaScript (ES2023)** | Native | Language foundation — hooks, async/await, destructuring, modules |
+
+### Supporting Libraries & Tools
+
+| Technology | Version | Purpose |
+|---|---|---|
+| **PostCSS** | 8.4 | CSS transformation pipeline — required by Tailwind |
+| **Autoprefixer** | 10.4 | Adds vendor prefixes automatically for cross-browser support |
+| **Google Fonts** | CDN | Syne (headings) + DM Sans (body text) |
+| **Anthropic Claude API** | v1 | Powers the AI-enhanced contact form message processing |
+| **IntersectionObserver** | Native | Browser API for scroll-triggered animations |
+| **Canvas API** | Native | Browser API for the animated particle network background |
+
+---
+
+## 🏗️ Brief Architecture Notes
+
+- **Section composition** is centralized in App-level orchestration, while visual blocks are extracted into focused components.
+- **Expensive visual pieces** are lazy-loaded with Suspense fallbacks to reduce first-paint cost.
+- **Styling** uses a mix of shared global styles and CSS Modules in reusable UI components.
+- **Motion behavior** is intentionally layered: macro section reveals, micro component transitions, and shader/3D visuals.
+
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── index.html                  ← HTML entry point
+├── package.json                ← Dependencies & scripts
+├── vite.config.js              ← Vite configuration
+├── tailwind.config.js          ← Tailwind theme & content paths
+├── postcss.config.js           ← PostCSS plugins
+├── README.md
+└── src/
+    ├── main.jsx                ← React root mount
+    ├── App.jsx                 ← Root component + theme state
+    ├── index.css               ← Global styles & CSS variables
+    ├── data/
+    │   └── index.js            ← All static content (skills, projects, etc.)
+    ├── hooks/
+    │   ├── useInView.js        ← Scroll-triggered visibility hook
+    │   └── useTyping.js        ← Typewriter animation hook
+    └── components/
+        ├── Particles.jsx       ← Animated canvas background
+        ├── Navbar.jsx          ← Navigation + mobile menu + theme toggle
+        ├── Hero.jsx            ← Landing section with typing effect
+        ├── SectionTitle.jsx    ← Reusable animated heading
+        ├── About.jsx           ← Bio, skill bars, certificate slider
+        ├── Projects.jsx        ← Project cards with live iframe previews
+        ├── Contact.jsx         ← Form + validation + social links
+        ├── Footer.jsx          ← Site footer
+        └── BackToTop.jsx       ← Floating scroll-to-top button
+```
+
+---
+
+## ⚙️ Local Development
+
+### Prerequisites
+
+- **Node.js** 18+ — [nodejs.org](https://nodejs.org)
+- **npm** 9+ (included with Node.js) or yarn
+- Any modern code editor (**VS Code** recommended)
+- Modern browser with ES2020+ support
+
+### Install
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser at: **http://localhost:5173**
+
+> 💡 The dev server supports **Hot Module Replacement (HMR)** — any saved change instantly reflects in the browser without a full page reload.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build Locally
+
+```bash
+npm run preview
+```
+
+The build output goes into a `dist/` folder. Upload it to any static hosting service such as **Netlify**, **Vercel**, or **GitHub Pages**.
+
+---
+
+## 📜 Available Scripts
+
+| Script | Description |
+|---|---|
+| `npm run dev` | Start Vite development server with HMR at localhost:5173 |
+| `npm run build` | Build optimized production bundle into the `dist/` folder |
+| `npm run preview` | Preview the production build locally before deploying |
+
+---
+
+## 🔌 Custom Hooks Explained
+
+### `useInView`
+Wraps the browser's `IntersectionObserver` API. Once an element scrolls into view (15% threshold by default), `visible` is set to `true` permanently — triggering CSS opacity and transform transitions.
+
+```jsx
+const [ref, visible] = useInView()
+
+<div ref={ref} style={{
+  opacity: visible ? 1 : 0,
+  transform: visible ? "none" : "translateY(30px)",
+  transition: "all 0.7s ease"
+}}>
+```
+
+### `useTyping`
+Manages a typewriter animation across an array of words — cycles forward through characters (typing), pauses, then deletes backwards before moving to the next word.
+
+```jsx
+const typed = useTyping([
+  "Frontend Developer",
+  "React Developer",
+  "Tailwind Expert"
+])
+
+<span>{typed}</span><Cursor />
+```
+
+---
+
+## 🤖 AI Contact Form
+
+When the user submits the contact form, data is validated client-side then sent to the **Anthropic Claude API**. Claude returns a professional confirmation message displayed via a colored feedback banner in the UI.
+
+---
+
+## 🌐 Live Projects Featured
+
+| Project | URL |
+|---|---|
+| **Appexy** — SaaS App Landing Page | [Live Demo](https://ammarsherifmohamed.github.io/Appexy---Tailwind-Project/) |
+| **Dentist** — Medical Clinic Website | [Live Demo](https://ammarsherifmohamed.github.io/Dentist-Project/) |
+| **TemplateMo** — Multi-purpose Template | [Live Demo](https://ammarsherifmohamed.github.io/Templatemo/) |
+
+---
+
+## 📬 Contact & Links
+
+| Platform | Link |
+|---|---|
+| 📧 Email | ammar.s.fouad555@gmail.com |
+| 💼 LinkedIn | [linkedin.com/in/ammar-sherif-564409313](https://linkedin.com/in/ammar-sherif-564409313/) |
+| 🐙 GitHub | [github.com/ammarsherifmohamed](https://github.com/ammarsherifmohamed) |
+| 🧑‍💻 Freelancer | [freelancer.com/u/ammars591](https://freelancer.com/u/ammars591) |
+| 🟡 Mostaql | [mostaql.com/u/Ammar_Sherif_AS](https://mostaql.com/u/Ammar_Sherif_AS) |
+
+---
+
+<div align="center">
+
+*Made with ❤️ by **Ammar Sherif** — Frontend Developer*
+
+</div>
