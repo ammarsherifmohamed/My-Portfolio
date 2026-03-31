@@ -1,4 +1,4 @@
-<!-- <h1>Ammar Sherif || Portfolio</h1>
+<h1>Ammar Sherif || Portfolio</h1>
 <br/>
 <hr/>
 <h4>
@@ -13,12 +13,16 @@ The site combines smooth section choreography, animated UI layers, skills visual
 
 <img width="1916" height="859" alt="Screenshot 2026-03-30 232039" src="https://github.com/user-attachments/assets/5264b4aa-59dd-47a8-b2c2-57350ada94d4" />
 
-<img width="1916" height="859" alt="Screenshot 2026-03-30 232039" src="https://github.com/user-attachments/assets/e9753a8d-9821-48bc-89c4-6debd9d408da" />
+<div align="center">
+    
+<img width="375" height="781" alt="Screenshot 2026-03-31 103539" src="https://github.com/user-attachments/assets/24897732-41e0-4be2-a3ba-5aade3f6ac2d" />
+
+</div>
 
 </br>
 
 <h2>Live Deployment</h2>
-<p>Live link : <span></span></p> -->
+<p>Live link : <span></span></p> 
 
 
 <div align="center">
