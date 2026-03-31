@@ -15,4 +15,4 @@ The site combines smooth section choreography, animated UI layers, skills visual
 </br>
 
 <h2>Live Deployment</h2>
-<button style="background-color:Red">Live Deployment</button>
+<a href="#" <img src=""/></a>
